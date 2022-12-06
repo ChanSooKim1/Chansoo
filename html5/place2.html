@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여기 여행 어때?</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+    }
+    
+    .header h1 {
+      font-size: 50px;
+    }
+    
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(29, 106, 168);
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 20px 40px;
+      text-decoration: none;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+      float: left;
+      width: 70%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+      float: right;
+      width: 20%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+    
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>[두번째 추천 숙소]</h1>
+            <h2>부산</h2>
+          </div>
+    
+    <div class="topnav">
+      <a href="./index.html">홈페이지</a>
+      <a href="./place1.html">추천숙소1</a>
+      <a href="./place2.html">추천숙소2</a>
+    </div>
+    
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>두번째 추천<br> 『호텔!』</h2>
+          <p>호캉스라는 말이 있을 정도로 휴가 때 내 집처럼 휴식 할 수 있는 공간! 풀빌라와 다르게 실내에서 논다는 개념보다는 휴식으로 하러 간다는 느낌으로 실내에서 활동적인 모습보다는 여유있는 모습을 통해 삶의 질을 잠시나마 높일 수 있는 시간을 가져봐요.</p>
+          <h2>『첫번째 호텔』</h2>
+          <p>럭셔리한 분위기와 전창을 통해 한눈에 볼 수 있는 오션뷰! 호텔에서 제공해주는 모닝 아이스 아메리카노까지!</p>
+          <img src="./image/호텔1-1.png" style="width: 110%;height:110%;"></div>
+          
+          <div class="card">
+          <img src="./image/호텔1-2.png" style="width: 110%;height:110%;"></div>
+          
+          <div class="card">
+          <img src="./image/호텔1-3.png" style="width: 110%;height:110%;"></div>
+         
+          <h2>『숙소 위치』</h2>
+          <p>숙소의 전창에는 부산대교가 한눈에 들어와요!</p>
+          <div class="card">
+          <img src="./image/호텔1 위치-1.png" style="width: 60%;height:60%;"></div>
+            
+          <div class="card">
+          <img src="./image/호텔1 위치-2.png" style="width: 60%;height:60%;"></div>
+          
+          <h2>『가격』</h2>
+          <p>가격은 여행사 어플마다 다르지만 최소8만원부터 최대 12만원까지 동일한 유형의 방 선택이 가능하고 조금 더 넓은 방은 이 가격에 2배인 최대 24만원 안에서 선택이 가능해요!</p>
+          <div class="card">
+          <img src="./image/호텔1 가격.png" style="width: 50%;height:50%;"></div>
+          
+
+          <h2>『두번째 호텔』</h2>
+          <p>광안리 해수욕장 도보 5분 거리에 위치한 호텔 1은 탁 트인 오션뷰와 화이트 톤의 대리석 인테리어가 매력적인 호텔이예요. 이곳은 독특하게 캡슐 타입의 객실이 마련되어 있어 혼자 여행 숙소로도 안성맞춤인데요. 이는 남성전용/여성전용으로 분리되어 있어 안전하게 머물 수 있어요. 또한 호텔 1~2층의 로비공간에서 편안한 쇼파에 앉아 큰 유리창으로 광안리 해수욕장의 풍경을 감상할 수 있다는 점도 매력적!</p>
+          <div class="card">
+          <img src="./image/호텔2-1.png" style="width: 110%;height:110%;"></div>
+          
+          <div class="card">
+          <img src="./image/호텔2-2.png" style="width: 110%;height:110%;"></div>
+          
+          <div class="card">
+          <img src="./image/호텔2-3.png" style="width: 110%;height:110%;"></div>
+
+          <h2>『숙소 위치』</h2>
+          <p>숙소의 창문으로 광안리 해수욕장이 한눈에 들어와요!</p>
+          <div class="card">
+          <img src="./image/호텔2 위치-1.png" style="width: 60%;height:60%;"></div>
+            
+          <div class="card">
+          <img src="./image/호텔2 위치-2.png" style="width: 60%;height:60%;"></div>
+
+          <h2>『가격』</h2>
+          <p>가격은 여행사 어플이 많지 않아 가격의 변동이 심하지 않고 5만원대부터 8만원대 사이면 가능!</p>
+          <div class="card">
+          <img src="./image/호텔2 가격.png" style="width: 50%;height:50%;"></div>
+          
+          <div class="card">
+            <h2>『두번째 호텔 후기 영상』</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nJv226M9-G0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    </body>
+    </html>
+    
+<body>
+
+</body>
+</html>
